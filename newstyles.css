@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    background-color: transparent;
+    border-collapse: collapse;
+    position: sticky;
+    top: 20px
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+button {
+    background-color: grey;
+    border: 10px;
+    border-radius: 15px;
+    height: 1.5rem;
+    width: 5rem;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+button:hover{
+    color: rgb(204, 202, 202);
+    background-color: rgb(70, 69, 69);
+}
+
+button:active{
+    background-color: white;
+    color: rgb(175, 174, 174);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background: linear-gradient(to right top,#f7f7f4,rgb(168, 168, 168));
+    box-shadow: 0 2px 8px rgba(0, 0 , 0, 0.25);
+}
+
+.bodyy{
+    border-collapse: collapse;
+    padding: 10px 20px ;
+    text-align: center;
+    flex-basis: auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    transform: .3s;
+    color: white;
+    background-color: rgb(168, 168, 168);
+}
+
+.bodyy:hover{
+    background-color: rgb(168, 168, 168);
+    transform: scaleX(1.01);
+}
+
+.bodyy:active{
+    background-color: white;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact-forms{
+    width: 60%;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.contact-forms input, .contact-forms textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.contact-forms input[type="submit"]{
+    background-color: grey;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border: 0;
+
+}
+.single-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.single-contact i{
+    background-color: rgb(168, 168, 168);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 8px;
+}
+.single-contact h4{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.single-contact h4 span{
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+}
+
+.footer{
+    background-color: rgb(168, 168, 168);
+    text-align: end;
+}

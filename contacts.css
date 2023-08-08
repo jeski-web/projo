@@ -1,0 +1,6 @@
+.new-contact{
+    padding: 20px;
+    background: linear-gradient(to right top, #f7f7f4,rgb(168, 168, 168));
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0);
+}
